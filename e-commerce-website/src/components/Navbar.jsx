@@ -12,12 +12,14 @@ const Navbar = () => {
         <Link to="/" className="text-3xl font-bold tracking-tight hover:text-gray-300">
           E-Commerce
         </Link>
-        <div className="flex items-center justify-center space-x-8">
+        <div className="flex-grow flex justify-center">
           <div className="flex space-x-4">
             <Link to="/" className="text-lg hover:text-gray-300">Makeup</Link>
             <Link to="/shopping2" className="text-lg hover:text-gray-300">Men T-shirts</Link>
             <Link to="/shopping3" className="text-lg hover:text-gray-300">Jewelery</Link>
           </div>
+        </div>
+        <div className="flex items-center space-x-8">
           <Link to="/admin" className="text-lg hover:text-gray-300">Admin</Link>
           <div className="relative">
             <Link to="/cart" className="flex items-center justify-center text-xl hover:text-gray-300">
